@@ -1,0 +1,119 @@
+.outerbox
+{
+    box-shadow: 3px 3px 20px 2px black;
+}
+.main
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+.sub1
+{
+    width: 50%;
+    background: rgb(197, 179, 212);
+    height: 100vh;
+    position: sticky;
+    top: 0px;
+}
+.sub2
+{
+    width: 50%;
+    background-color: aliceblue;
+    height: 1500vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+}
+nav{
+    
+    margin-top: 0px;
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    margin-right: 0px;
+    box-shadow: 3px 3px 10px 2px rgb(129, 119, 119);
+}
+nav ul 
+{
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "neue-haas-unica",sans-serif;
+    color: rgb(13, 12, 12);
+}
+
+.boxy
+{
+    margin-left: 40px;
+    position: absolute;
+    width: 600px;
+    top: 350px;
+    left: 40px;
+    border-bottom: solid black 4p;
+}
+
+span
+{
+    font-family: 'Cormorant SC', serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    letter-spacing: -.02em;
+    text-transform: none;
+    line-height: 1.5em;
+}
+.aboutme
+{
+    position: absolute;
+    width: 700px;
+    top: 800px;
+    background-color: rgb(42, 42, 194);
+    border-radius: 5%;
+    box-shadow: 3px 3px 10px 2px black;
+    padding: 15px;
+    color: white;
+    top: 2000px;
+    left: 100px;
+}
+.profile
+{
+    position: absolute;
+    left: 200px;
+    top: 180px;
+    border-radius: 5%;
+    box-shadow: 3px 3px 10px 2px rgb(123, 110, 110);
+}
+ul li{
+
+    list-style: none;
+}
+.button
+{
+    position: absolute;
+    bottom: 7px;
+}
+.button:hover
+{
+    border-bottom: solid rgb(29, 46, 231) 4px;
+    color: rgb(29, 46, 231);
+    
+}
+.developer
+{
+    position: absolute;
+    top: 1200px;
+    left: 100px;
+    border-radius: 10%;
+}
+.developer:hover
+{
+    box-shadow: 3px 3px 20px 2px black;
+}
